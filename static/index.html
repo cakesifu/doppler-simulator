@@ -1,0 +1,47 @@
+<!doctype>
+<html>
+  <head>
+    <style>
+    .demo {
+      width: 50%;
+      float: left;
+    }
+
+    .demo h1 {
+      font-size: 125%;
+      width: 75%;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .simulation input[type="number"] {
+      width: 50px;
+    }
+
+    .simulation canvas {
+      margin: 0 auto;
+        display: block;
+    }
+
+    .simulation .controls {
+      text-align: center;
+    }
+
+    .simulation .controls input {
+      margin: 0 10px;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="demo">
+      <h1>Simulation with simple color alteration</h1>
+      <div class="simulation" data-type="simple"></div>
+    </div>
+    <div class="demo">
+      <h1>Simulation with hue based color alteration</h1>
+      <div class="simulation" data-type="hue-alteration"></div>
+    </div>
+
+    <script src="/assets/client.js"></script>
+  </body>
+</html>
